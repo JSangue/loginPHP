@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="estilologin.css">
+    <script src=""></script>
+</head>
+<body onload="bemvindo();"  >
+    <header>
+        <ul>
+            <li>
+                <img src="logotipo.png" alt="">
+            </li>
+            <li>
+                <button>
+                    Criar Conta
+                </button>
+            </li>
+        </ul>
+    </header>
+    <aside>
+        <form action="post" >
+            <div class="logotipo">
+            <img src="logotipo.png" alt="">
+            </div>
+            <div class="insercao">
+               <input type="text" placeholder="Digite o seu nome"  value="" name="nome" id="nome" ><br>
+               <input type="password" placeholder="Digite a sua password" value="" name="senha" id="senha" ><br>
+            </div>
+            <div class="submissao">
+            <input type="submit" value="Entrar" id="entrar" onclick=" return verificar();"><br>
+            <p> Nao tenho conta!<a href="criarconta.html">Clique aqui!!!</a></p>
+           </div>
+           <div class="opcoes">
+           <p>---------- Ou cadastre-se com ----------</p>
+            <button id="instagram">
+                <img src="instagram_logo_icon_186894.png" alt="">
+                Instagram
+            </button><br>
+            <button id="facebook">
+                <img src="social_network_facebook_icon-icons.com_66156.png" alt="">
+                 Facebook
+            </button>
+        </div>
+        </form>
+    </aside>
+    <footer>
+        DJEMESSANGUE || BLOODSERVICE<br>
+        @2023
+    </footer>
+</body>
+</html>
